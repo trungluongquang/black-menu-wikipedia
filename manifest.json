@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Wikipedia Black Menu",
+  "description": "I will add it later",
+  "version": "1.0",
+  "permissions": ["activeTab", "contextMenus"],
+
+  "icons": {
+    "16": "img/wiki_16.png",
+    "48": "img/wiki_48.png",
+    "128": "img/wiki_128.png"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "16": "img/wiki_16.png",
+      "48": "img/wiki_48.png",
+      "128": "img/wiki_128.png"
+    },
+    "default_title": "Google Mail",
+    "default_popup": "popup.html",
+    "js": ["jquery-2.2.0.min.js", "popup.js"]
+  }
+}
